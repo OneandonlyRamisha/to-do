@@ -1,0 +1,53 @@
+.addTaskContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.addTaskContainer input {
+  padding: 1.5rem 3rem;
+  background-color: #46337d;
+  border: none;
+  outline: none;
+  color: #c3b3d8;
+  font-size: 1.6rem;
+}
+
+.btn {
+  font-size: 1.6rem;
+  padding: 1.5rem 3rem;
+  background-color: #c3b3d8;
+  color: #46337d;
+  cursor: pointer;
+}
+.error {
+  font-size: 1.6rem;
+}
+.date {
+  position: relative;
+}
+.btnContainer {
+  display: flex;
+
+  background-color: red;
+}
+
+.btnContainer button {
+  width: 50%;
+}
+
+.date::-webkit-calendar-picker-indicator {
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
