@@ -25,6 +25,7 @@
 }
 .date {
   position: relative;
+  width: 100%;
 }
 .btnContainer {
   display: flex;
